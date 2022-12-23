@@ -1,0 +1,22 @@
+2022-12-23T08:08:19.974441Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Target handler state: enabled [incarnation_1]
+2022-12-23T08:08:19.974710Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] [Enable] current handler state is: notinstalled
+2022-12-23T08:08:19.974981Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Downloading extension package: https://umsad05b415nz2v2rbmf.blob.core.windows.net/76d90c30-c607-43bc-49aa-02e322a01e7b/76d90c30-c607-43bc-49aa-02e322a01e7b_1.23.0.1.zip
+2022-12-23T08:08:20.008280Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Unzipping extension package: /var/lib/waagent/Microsoft.VisualStudio.Services.TeamServicesAgentLinux__1.23.0.1.zip
+2022-12-23T08:08:20.019433Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Initializing extension Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1
+2022-12-23T08:08:20.022782Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Update settings file: 1.settings
+2022-12-23T08:08:20.023040Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Install extension [Handler.sh]
+2022-12-23T08:08:20.023296Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Executing command: /var/lib/waagent/Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1/Handler.sh with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.23.0.1", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "ConfigSequenceNumber": "1", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+2022-12-23T08:08:22.030552Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Command: Handler.sh
+[stdout]
+[stderr]
+Running scope as unit: install_8e87300c-d0aa-4969-bad1-2068d12d3610.scope
+/var/lib/waagent/Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1/./WaagentLib.py:2286: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if me.returncode is not 0 and chk_err is True and log_cmd:
+2022-12-23T08:08:22.031483Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Requested extension state: enabled
+2022-12-23T08:08:22.031810Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Enable extension: [Handler.sh -enable]
+2022-12-23T08:08:22.032096Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Executing command: /var/lib/waagent/Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1/Handler.sh -enable with environment variables: {"AZURE_GUEST_AGENT_UNINSTALL_CMD_EXIT_CODE": "NOT_RUN", "AZURE_GUEST_AGENT_EXTENSION_PATH": "/var/lib/waagent/Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1", "AZURE_GUEST_AGENT_EXTENSION_VERSION": "1.23.0.1", "AZURE_GUEST_AGENT_WIRE_PROTOCOL_ADDRESS": "168.63.129.16", "ConfigSequenceNumber": "1", "AZURE_GUEST_AGENT_EXTENSION_SUPPORTED_FEATURES": "[{\"Key\": \"ExtensionTelemetryPipeline\", \"Value\": \"1.0\"}]"}
+2022-12-23T08:08:24.038772Z INFO ExtHandler [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] Command: Handler.sh -enable
+[stdout]
+2022/12/23 08:08:24 [Microsoft.VisualStudio.Services.TeamServicesAgentLinux-1.23.0.1] running script
+[stderr]
+Running scope as unit: enable_55fb2a7e-1e89-42e0-9bf6-8f24d83d2e91.scope
