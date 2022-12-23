@@ -1,0 +1,63 @@
+PS C:\Users\Sebastian> az vm extension image list --publisher "Microsoft.VisualStudio.Services" -l westeurope -n TeamServicesAgentLinux
+[
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.17.0.0"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.18.0.0"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.19.0.0"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.20.0.0"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.20.0.2"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.21.0.0"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.21.0.1"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.21.0.2"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.21.0.3"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.22.0.0"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.23.0.0"
+  },
+  {
+    "name": "TeamServicesAgentLinux",
+    "publisher": "Microsoft.VisualStudio.Services",
+    "version": "1.23.0.1"
+  }
+]
